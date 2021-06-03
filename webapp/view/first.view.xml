@@ -9,7 +9,7 @@
 			<pages>
 				<Page id="page" title="{i18n>title}">
                     <content> 
-                        <Label text ="Hello"/>
+                        <Label text ="first"/>
                         <Button text = "first" press = "first"/>
                         <List items="{/Products}">
                             <StandardListItem type="Navigation" press="handleListItemPress" title="{ProductName}" />
