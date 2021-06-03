@@ -1,0 +1,22 @@
+<mvc:View
+    controllerName="com.hello.first.controller.first"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+                    <content> 
+                        <Label text ="Hello"/>
+                        <Button text = "first" press = "first"/>
+                        <List items="{/Products}">
+                            <StandardListItem type="Navigation" press="handleListItemPress" title="{ProductName}" />
+                        </List>
+                    </content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
