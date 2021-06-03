@@ -14,7 +14,7 @@ sap.ui.define([
             
             first: function ()
             {
-                alert("Hello");
+                alert("Pragnesh Parmar");
             },
             handleListItemPress : function(oEvent)
             {
